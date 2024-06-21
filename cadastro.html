@@ -23,20 +23,20 @@
             <div id="login-menu">
                 <h1 id="login-title">Entrar</h1>
                 <div id="login-input">
-                    <form action="">
-                        <input placeholder="Nome de usuário ou e-mail*" type="search" class="account-login" id="user-input">
-                        <input placeholder="Senha*" type="password" class="account-login" id="password-input">
-                        <button id="button-login">Entrar</button>
+                    <form method="POST" action="login.php">
+                        <input placeholder="Nome de usuário ou e-mail*" type="text" name="login-text" class="account-login" id="login-text">
+                        <input placeholder="Senha*" type="password" name="login-password" class="account-login" id="login-password">
+                        <button type="submit" name="login-button" id="button-login">Entrar</button>
                     </form>    
                 </div>
             </div>
             <div id="register-menu">
                 <h1 id="register-title">Cadastre-se</h1>
                 <div id="register-input">
-                    <form action="">
-                        <input placeholder="Nome de usuário ou e-mail*" type="search" class="account-login" id="user-input">
-                        <input placeholder="Crie sua senha*" type="password" class="account-login" id="password-input">
-                        <input placeholder="Confirme sua senha*" type="password" class="account-login" id="repassword-input">
+                    <form method="POST" action="register.php">
+                        <input placeholder="Nome de usuário ou e-mail*" type="text" name="register-text" class="account-login" id="register-text">
+                        <input placeholder="Crie sua senha*" type="password" name="register-password" class="account-login" id="register-password">
+                        <input placeholder="Confirme sua senha*" type="password" name="register-repassword" class="account-login" id="register-repassword">
                         <button id="button-register">Cadastrar</button>
                     </form>
                 </div>
@@ -48,3 +48,4 @@
     </main>
 </body>
 </html>
+

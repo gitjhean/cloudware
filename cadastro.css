@@ -84,7 +84,7 @@ and (min-width : 1600px) {
         margin-left: 20vw;
     }
 
-    #password-input {
+    #login-password {
         margin: 1.363vw 0px 0px 0px;
     }
 
@@ -155,11 +155,11 @@ and (min-width : 1600px) {
         margin-left: 7vw;
     }
 
-    #password-input {
+    #register-password {
         margin: 1.363vw 0px 0px 0px;
     }
 
-    #repassword-input {
+    #register-repassword {
         margin: 1.363vw 0px 0px 0px;
     }
 

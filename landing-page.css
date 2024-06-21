@@ -426,6 +426,11 @@ and (min-width : 1824px) {
         font-family: 'Poppins';
         text-decoration: none;
     }
+
+    .link {
+        text-decoration: none;
+        color: black;
+    }
     
     body {
         background-color: var(--white);
