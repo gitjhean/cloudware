@@ -59,7 +59,7 @@ and (min-width : 1600px) {
         color: var(--principal-color);
         cursor: pointer;
         transition: ease-out 200ms;
-        margin-left: 46.5vw;
+        margin-left: 3vw;
     }
 
     #register-login:hover {
@@ -67,6 +67,10 @@ and (min-width : 1600px) {
         background-color: black;
         transform: scale(1.05);
         transition: ease-in 100ms;
+    }
+
+    #icon-support {
+        margin: 0 0 0 42.3vw;
     }
 
     /* nav */

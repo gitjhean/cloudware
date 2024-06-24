@@ -107,7 +107,7 @@ and (min-width : 1600px) {
         color: var(--principal-color);
         cursor: pointer;
         transition: ease-out 200ms;
-        margin-left: 51vw;
+        margin: 0 0 0 3vw;
     }
 
     #register-login:hover {
@@ -115,6 +115,15 @@ and (min-width : 1600px) {
         background-color: black;
         transform: scale(1.05);
         transition: ease-in 100ms;
+    }
+
+    #support {
+        display: flex;
+        align-items: center;
+    }
+
+    #icon-support {
+        margin: 0 0 0 46.7vw;
     }
     
     /* nav */
@@ -473,10 +482,6 @@ and (min-width : 1824px) {
         color: var(--white);
         font-weight: 700;
     }
-
-    #support {
-        margin-left: 0 0 0 50vw;
-    }
     
     /* searchbar */
     
@@ -534,6 +539,7 @@ and (min-width : 1824px) {
         color: var(--principal-color);
         cursor: pointer;
         transition: ease-out 200ms;
+        margin: 0 0 0 3vw;
     }
 
     #register-login:hover {
@@ -541,6 +547,15 @@ and (min-width : 1824px) {
         background-color: black;
         transform: scale(1.05);
         transition: ease-in 100ms;
+    }
+
+    #support {
+        display: flex;
+        align-items: center;
+    }
+
+    #icon-support {
+        margin: 0 0 0 46.7vw;
     }
     
     /* nav */

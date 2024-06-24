@@ -108,6 +108,10 @@ and (min-width : 1600px) {
         transition: 100ms ease-in;
     }
 
+    #icon-support {
+        margin: 0 0 0 46.7vw;
+    }
+
     /* input style*/
        
     .account-login {
