@@ -7,6 +7,11 @@ and (min-width : 1600px) {
         font-family: 'Poppins';
         text-decoration: none;
     }
+
+    .link {
+        text-decoration: none;
+        color: black;
+    }
     
     body {
         background-color: var(--white);
@@ -44,7 +49,6 @@ and (min-width : 1600px) {
         text-transform: uppercase;
         color: var(--white);
         font-weight: 700;
-        margin-right: 4.4vw;
     }
     
     /* searchbar */
@@ -103,6 +107,7 @@ and (min-width : 1600px) {
         color: var(--principal-color);
         cursor: pointer;
         transition: ease-out 200ms;
+        margin-left: 51vw;
     }
 
     #register-login:hover {
@@ -426,6 +431,11 @@ and (min-width : 1824px) {
         font-family: 'Poppins';
         text-decoration: none;
     }
+
+    .link {
+        text-decoration: none;
+        color: black;
+    }
     
     body {
         background-color: var(--white);
@@ -462,7 +472,10 @@ and (min-width : 1824px) {
         text-transform: uppercase;
         color: var(--white);
         font-weight: 700;
-        margin-right: 6.308vw;
+    }
+
+    #support {
+        margin-left: 0 0 0 50vw;
     }
     
     /* searchbar */

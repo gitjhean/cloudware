@@ -44,7 +44,7 @@ and (min-width : 1600px) {
         text-transform: uppercase;
         color: var(--white);
         font-weight: 700;
-        margin-right: 4.4vw;
+        margin-right: 51.2vw;
     }
     
     /* searchbar */
@@ -322,7 +322,7 @@ and (min-width : 1824px) {
         text-transform: uppercase;
         color: var(--white);
         font-weight: 700;
-        margin-right: 6.308vw;
+        margin-right: 50.708vw;
     }
     
     /* searchbar */
@@ -532,7 +532,8 @@ and (min-width : 1824px) {
     /* technical info */
 
     #product-desc {
-        margin: 0 0 0 14.323vw;
+        margin: 0 14.323vw 0 14.323vw;
+        text-align: justify;
     }
 
     #product-title {
