@@ -130,7 +130,7 @@ and (min-width : 1600px) {
     }
 
     #product-resume {
-        width: 20vw;
+        width: 27.8vw;;
         background-color: var(--white);
         margin: 5vw -2vw 10vw 3vw;
         border-radius: 0.313vw;
@@ -164,6 +164,10 @@ and (min-width : 1600px) {
         border: 1px solid #42464db0;
     }
 
+    #payment-pix:active, #payment-pix:focus {
+        border-color: var(--principal-color);
+    }
+
     #payment-card {
         background-color: var(--white);
         width: 49vw;
@@ -179,8 +183,11 @@ and (min-width : 1600px) {
         padding: 0 0 0 1vw;
         margin: 0 0 3vw 0;
         color: rgba(0, 0, 0, 0.644);
-        border: 1px solid #42464db0;
-        
+        border: 1px solid #42464db0;   
+    }
+
+    #payment-card:active, #payment-card:focus {
+        border-color: var(--principal-color);
     }
 
     #redirect-pix {
@@ -189,6 +196,10 @@ and (min-width : 1600px) {
 
     .redirect {
         margin: 0 0 0 36.3vw;
+    }
+
+    #change {
+        margin-left: -1.5vw;
     }
 
     #title {
@@ -211,8 +222,24 @@ and (min-width : 1600px) {
         border-bottom: 1px solid #42464db0;
         color: #42464db0;
         padding: 0 0 0.5vw 0;
-        display: flex;
-        justify-content: space-between;
+        display: grid;
+        grid-template-areas: 
+        "item1 item2 item3";
+        grid-template-columns: 6.3vw 9.9vw;
+        justify-content: left;
+        column-gap: 1.7vw;
+    }
+
+    #total-value > #total-value {
+        grid-area: item1;
+    }
+    
+    #total-value > #change {
+        grid-area: item2;
+    }
+
+    #total-value > #price {
+        grid-area: item3;
     }
 
     #discount span {
@@ -225,7 +252,7 @@ and (min-width : 1600px) {
         align-items: center;
         color: var(--white);
         background-color: var(--principal-color);
-        width: 18vw;
+        width: 25.8vw;
         height: 2.5vw;
         margin-bottom: 0.885vw;
         font-size: 0.829vw;
@@ -376,7 +403,7 @@ and (min-width : 1824px) {
     }
 
     #product-resume {
-        width: 20vw;
+        width: 25.5vw;
         background-color: var(--white);
         margin: 5vw 0 10vw 0;
         border-radius: 0.313vw;
@@ -409,6 +436,10 @@ and (min-width : 1824px) {
         border: 1px solid #42464db0;
     }
 
+    #payment-pix:active, #payment-pix:focus {
+        border-color: var(--principal-color);
+    }
+
     #payment-card {
         background-color: var(--white);
         width: 49vw;
@@ -426,6 +457,10 @@ and (min-width : 1824px) {
         color: rgba(0, 0, 0, 0.644);
         border: 1px solid #42464db0;
         
+    }
+
+    #payment-card:active, #payment-card:focus {
+        border-color: var(--principal-color);
     }
 
     #redirect-pix {
@@ -455,8 +490,24 @@ and (min-width : 1824px) {
         border-bottom: 1px solid #42464db0;
         color: #42464db0;
         padding: 0 0 0.5vw 0;
-        display: flex;
-        justify-content: space-between;
+        display: grid;
+        grid-template-areas: 
+        "item1 item2 item3";
+        grid-template-columns: 5.2vw 9.7vw;
+        justify-content: left;
+        column-gap: 1.7vw;
+    }
+
+    #total-value > #total-value {
+        grid-area: item1;
+    }
+    
+    #total-value > #change {
+        grid-area: item2;
+    }
+
+    #total-value > #price {
+        grid-area: item3;
     }
 
     #discount span {
@@ -469,7 +520,7 @@ and (min-width : 1824px) {
         align-items: center;
         color: var(--white);
         background-color: var(--principal-color);
-        width: 18vw;
+        width: 23.5vw;
         height: 2.5vw;
         margin-bottom: 0.885vw;
         font-size: 0.829vw;
